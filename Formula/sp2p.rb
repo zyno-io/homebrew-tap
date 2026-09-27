@@ -1,28 +1,28 @@
 class Sp2p < Formula
   desc "Secure peer-to-peer file transfer"
   homepage "https://sp2p.io"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_darwin_arm64.tar.gz"
-      sha256 "d526775d27cce093d1f259b2dba3a7ed9cef78b226df7dbdbdb5ca5a57b2a833"
+      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.1/sp2p_darwin_arm64.tar.gz"
+      sha256 "a00f76c5cae137aa9f6a4d3e0965afa06d9dbe17b1fd5775f2840e0ceee68d49"
     end
     on_intel do
-      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_darwin_amd64.tar.gz"
-      sha256 "f521cc63e6bcd6c37781227537a4867247cf4694e6cb6690bca79728d93f17e4"
+      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.1/sp2p_darwin_amd64.tar.gz"
+      sha256 "09c902208757b716a0b78445c002a8e1c0999ba1775645b52790956f3af7c233"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_linux_arm64.tar.gz"
-      sha256 "95234bfecff78e561b7dd783d51d74b51b64456ea6f8924392ec2a71d1ba3585"
+      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.1/sp2p_linux_arm64.tar.gz"
+      sha256 "c0fbbc08c2035bb43ee8c95cdf57188753a867215b33902010de9072033c4c4f"
     end
     on_intel do
-      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_linux_amd64.tar.gz"
-      sha256 "54be5f91325bf75324be4d7e89f4cdd18401969db72c273b4231734d4191c3db"
+      url "https://github.com/zyno-io/sp2p/releases/download/v0.6.1/sp2p_linux_amd64.tar.gz"
+      sha256 "3f70fc7c770990b7ab7751120da4634ed9ee02db442d71abfd7f54840936d363"
     end
   end
 
